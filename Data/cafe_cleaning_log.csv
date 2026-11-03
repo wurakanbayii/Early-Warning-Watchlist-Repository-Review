@@ -1,0 +1,9 @@
+Issue,Rows Affected,Action Taken
+Missing Quantity,138,Replaced missing values with 0
+Missing Price Per Unit,179,Recovered missing values using other available data through formulas
+Missing Total Spent,173,Recovered missing values using other available data through formulas
+Missing Payment Method,2579,Replaced invalid values with null
+Missing Location,3265,Replaced invalid values with null
+Missing Item,333,Replaced invalid values with null
+Invalid Date,460,Converted invalid dates to null as well as fixed the data type for each column
+Outliers in Total Spent,0,Flagged using the IQR rule wihout deleting any row
